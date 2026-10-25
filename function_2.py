@@ -16,3 +16,73 @@
 # already_there = ["Rain", "Ratul", "Rahim"]
 # final = add_num(already_there, "Karim")
 # print(final)
+
+
+# সমস্যা ১৪: লিস্ট থেকে একটি নাম মুছে ফেলা
+#
+# একটি ফাংশন তৈরি করুন যার নাম হবে remove_name(my_list, name_to_remove)। এই ফাংশনটি দুটি প্যারামিটার নেবে: একটি নামের লিস্ট এবং যে নামটি মুছে ফেলতে হবে।
+# • ফাংশনটি .remove() ব্যবহার করে ওই নির্দিষ্ট নামটি লিস্ট থেকে মুছে ফেলবে।
+
+# def remove_item(my_list, name_to_remove):
+#     my_list.remove(name_to_remove)
+#     return my_list
+# all_list = [1, 2, 3, 4, 5]
+# final= remove_item(all_list,2)
+# print(final)
+
+# def add_two_to_all(my_list):
+#     return my_list
+# list_1=[1,2,3,4,5]
+# final =add_two_to_all(len(list_1 *2 ))
+# print(final)
+
+# def checking(my_list):
+#     for i in my_list :
+#         if i%2 == 0:
+#             print("EVEN")
+#         else:
+#             print("ODD")
+# user = [1,2,3,4,5,6,7,8,9 ]
+# checking(user)
+
+# def user(positive):
+#     if positive >0:
+#         print("That's positive number")
+#     else:
+#         print("That's negative number")
+# number = int(input("Enter a number: "))
+# user(number)
+
+# def positive(my_list):
+#     for number in my_list:
+#         if number %2 == 0 :
+#             print("EVEN")
+#         else:
+#             print("ODD")
+# my_list_11 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# positive(my_list_11)
+
+#
+# def check_grades(scores_list):
+#     for number in scores_list:
+#         if number >= 50:
+#             print("PASSED")
+#         else:
+#             print("FAILED")
+# checking=[int(input("Enter a number: "))]
+# check_grades(checking)
+
+# def check_grades(scores_list):
+#     for number in scores_list:
+#         if number >= 50:
+#             print("passed")
+#         else:
+#             print("failed")
+# numbers_list = [10, 20, 30, 40, 110]
+# check_grades(numbers_list)
+
+
+
+
+
+
