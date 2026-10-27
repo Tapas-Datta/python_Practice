@@ -92,8 +92,8 @@ for i in range(1, 11):
 def table(n):
     for i in range(1,11):
         print(f"{n} x {i} = {n*i}")
-user= int(input("Enter a number: "))
-table(user)
+user_1= int(input("Enter a number: "))
+table(user_1)
 
 
 
@@ -106,3 +106,4 @@ table(user)
 
 
 
+# practice
