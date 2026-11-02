@@ -103,19 +103,6 @@ print(salary_calculator(manager))
 
 
 def loan_eligibility(age, salary, credit_score):
-Requirements:
-1. Age 18-এর নিচে হলে Not Eligible।
-2. Salary 20,000-এর নিচে হলে Not Eligible।
-3. Credit Score 750 বা বেশি হলে Excellent।
-4. Credit Score 650–749 হলে Good।
-5. Credit Score 600–649 হলে Average।
-6. Credit Score 600-এর নিচে হলে Rejected।
-Input Example:
-Enter your age: 25
-Enter your monthly salary: 35000
-# Enter your credit score: 780
-
-def loan_eligibility(age, salary, credit_score):
 
     if age < 18:
         return "Not Eligible: Age must be 18 or above"
