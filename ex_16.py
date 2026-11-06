@@ -47,7 +47,7 @@ def order_calculator(price, quantity, delivery_type, coupon):
     else:
         return "invalid delivery type"
     final_price = total_price - discount + delivery_cost
-    return final_price,discount,delivery_cost
+    return final_price, discount, delivery_cost
 
 user_price = int(input("Enter your price: "))
 user_quantity = int(input("Enter your quantity: "))
