@@ -41,7 +41,6 @@ def consecutive_analysis(sales_list):
         else:
             run_list = [sales_list[j+1]]
             length = 1
-
         if length > highest_length:
             highest_length = length
             longest_increase = run_list.copy()
